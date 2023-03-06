@@ -1,13 +1,63 @@
 body {
 
     background-color: black;
+    padding: 0;
     
+}
+
+.border-h1 {
+
+    border-color: white;
+    border-style: double;
+    margin-right: 25em;
+    margin-left: 25em;
+
 }
 
 .homepage-h1{
 
     color: white;
     display: flex;
-    justify-content: center;
+    margin-left: 0.5em;
+    
+}
+
+.fyp-button{
+
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: black;
+    width: 200px;
+    margin-right: 5em;
+    padding: 12px;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+.fyp-button-2{
+
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: black;
+    width: 200px;
+    margin-right: 5em;
+    padding: 12px;
+
+}
+
+.fyp-button:hover{
+
+    background-color: gray;
+    color: white;
+
+}
+
+.fyp-button-2:hover{
+
+    background-color: gray;
+    color: white;
 
 }
